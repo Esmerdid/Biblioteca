@@ -1,0 +1,86 @@
+nav{
+	background-color: #bb0303;
+
+}
+
+
+.nav-item {
+	color: white;
+	font-weight: 
+
+}
+
+#empresa {
+	color: white;
+
+}
+
+.fa.fa-navicon {
+  color:white;
+  
+}
+
+.navbar-nav a{
+	border: 1px solid white;
+    color: white;
+    padding: 1px 9px;
+    border-radius: 4px;
+    margin-right: 4px;
+    
+}
+
+.navbar-nav a:hover {
+    background-color: white;
+    color: #bb0303;
+}
+
+li, ol{/*Para quitar viñetas a las listas*/
+	list-style: none;
+}
+
+
+.my-user-footer a{
+	border: 1px solid #bb0303;
+	color: #bb0303;
+}
+
+.my-user-footer a:hover{
+	background-color: #bb0303;
+    color: white;
+}
+
+.my-user-footer{
+	margin-bottom: 0px;
+}
+
+/*Redimensionar imagen que aparece al lado del usuario*/
+.navbar-nav .user-menu .user-image {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-top: -2px;
+ }
+
+/*Dimensiones menu usuario*/
+.navbar-nav  .user-menu  .dropdown-menu {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    padding: 5px;
+    border-top-width: 0;
+    width: 250px;
+    height: 210px;
+    position: absolute;
+    right: 0px;
+    left: auto;
+
+}
+
+.navbar-nav  .user-menu  .dropdown-menu  li.my-user-header  img {
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    margin-left: 60px;
+    border-color: transparent;
+    border-color: rgba(255, 255, 255, 0.2);
+}

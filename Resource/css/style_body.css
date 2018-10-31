@@ -1,0 +1,72 @@
+/*Estilo tablas y formularios*/
+#container-iconos{
+    margin-bottom: 180px;
+   
+}
+
+.container-fluid{
+    margin-top: 40px;
+}
+
+.container-fluid .row{
+    margin-top: 15px;
+    width: 95%;
+    margin-left: 20px;
+}
+
+.container-fluid .row input{
+    background-color: rgba(0,0,0, 0.1);
+    color: black;
+    
+}
+
+td{
+    background-color: white;
+}
+
+
+tr:hover td:nth-of-type(1n){
+    background-color:#CFCECE;
+    border-color:#CFCECE;
+}
+
+em{
+    color: white;
+}
+
+.detalle_lector{
+    margin-bottom: 20px;
+}
+/*Estilos para tabla*/
+
+/*MODAL ESTILOS*/
+.modal-header{
+    background-color: #bb0303;
+}
+
+.modal-title{
+    color: white;
+}
+.modal-footer{
+    background-color: #CFCECE;
+}
+
+.close{
+    color: white;
+}
+
+.close:hover{
+    color: white;
+}
+
+.modal-body .form-group input{
+    color: black;
+}
+
+@media (max-width: 767px){
+
+    .container-fluid{
+        margin-bottom: 50px;
+    }
+
+}
